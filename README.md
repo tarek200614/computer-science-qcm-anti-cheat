@@ -44,43 +44,50 @@ A secure web-based Computer Science Multiple Choice Question (QCM) examination p
 
 ## Home Page
 
-![Home](assets/screenshots/home-page.png)
+<img width="1920" height="1080" alt="home-page" src="https://github.com/user-attachments/assets/fd000c17-6f9c-495d-a083-caddd451235e" />
+
 
 ---
 
 ## Login
 
-![Login](assets/screenshots/login.png)
+<img width="1920" height="1080" alt="login" src="https://github.com/user-attachments/assets/5d490bd1-80df-4680-bf07-e879a000eabb" />
+
 
 ---
 
 ## Registration
 
-![Register](assets/screenshots/registration.png)
+<img width="1920" height="1080" alt="registration" src="https://github.com/user-attachments/assets/d4427f15-99d3-4be7-b47f-40829216d52f" />
+
 
 ---
 
 ## Student Dashboard
 
-![Dashboard](assets/screenshots/user-dashboard.png)
+<img width="1920" height="1080" alt="user-dashboard" src="https://github.com/user-attachments/assets/d8554f04-7bdd-4cf0-80c6-fd21dfccdbec" />
+
 
 ---
 
 ## QCM Examination
 
-![Exam](assets/screenshots/qcm-exam.png)
+<img width="1920" height="1080" alt="qcm-exam" src="https://github.com/user-attachments/assets/39aaccf4-2b64-4182-b12a-d50b1f0af211" />
+
 
 ---
 
 ## Results
 
-![Results](assets/screenshots/results-page.png)
+<img width="1920" height="1080" alt="results-page" src="https://github.com/user-attachments/assets/d29d239e-c8bc-41dd-b81d-065eeac0fc12" />
+
 
 ---
 
 ## Admin Dashboard
 
-![Admin](assets/screenshots/admin-dashboard.png)
+<img width="1920" height="1080" alt="admin-dashboard" src="https://github.com/user-attachments/assets/e3960296-5cc2-45ac-8618-81ea8e6d1619" />
+
 
 ---
 
