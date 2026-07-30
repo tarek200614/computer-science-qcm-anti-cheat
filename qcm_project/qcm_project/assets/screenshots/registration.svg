@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#f5f7fa"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="60" fill="#2c3e50"/>
+  <text x="600" y="40" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">🎓 QCM Informatique</text>
+  
+  <!-- Registration Form -->
+  <rect x="375" y="150" width="450" height="500" rx="15" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="600" y="210" font-family="Arial" font-size="28" fill="#2c3e50" text-anchor="middle" font-weight="bold">Créer un compte</text>
+  
+  <!-- Form Fields -->
+  <rect x="420" y="260" width="360" height="40" rx="8" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="435" y="288" font-family="Arial" font-size="14" fill="#999">Nom</text>
+  
+  <rect x="420" y="320" width="360" height="40" rx="8" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="435" y="348" font-family="Arial" font-size="14" fill="#999">Prénom</text>
+  
+  <rect x="420" y="380" width="360" height="40" rx="8" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="435" y="408" font-family="Arial" font-size="14" fill="#999">Email</text>
+  
+  <rect x="420" y="440" width="360" height="40" rx="8" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="435" y="468" font-family="Arial" font-size="14" fill="#999">Mot de passe</text>
+  
+  <rect x="420" y="500" width="360" height="40" rx="8" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="435" y="528" font-family="Arial" font-size="14" fill="#999">Confirmez le MDP</text>
+  
+  <!-- Submit Button -->
+  <rect x="420" y="560" width="360" height="45" rx="8" fill="url(#buttonGrad)"/>
+  <text x="600" y="590" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">S'inscrire</text>
+  
+  <!-- Link -->
+  <text x="600" y="630" font-family="Arial" font-size="14" fill="#667eea" text-anchor="middle">Déjà inscrit ? Se connecter</text>
+  
+  <defs>
+    <linearGradient id="buttonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="30" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+</svg>
