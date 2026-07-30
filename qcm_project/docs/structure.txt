@@ -10,6 +10,7 @@ qcm_project/
 │
 ├── docs/
 │   ├── project-report.pdf    # Project documentation
+│   ├── structure.txt   # Folder Structure
 │
 ├── public/
 │   ├── css/
