@@ -1,0 +1,155 @@
+/* =============================================
+   STYLE PRINCIPAL – QCM INFORMATIQUE
+   À COMPLÉTER PAR le membre en charge du CSS
+   ============================================= */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* --- NAVIGATION --- */
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: #2c3e50;
+    color: white;
+}
+header nav h1 { margin-right: auto; font-size: 1.3rem; }
+header nav a  { color: #ecf0f1; text-decoration: none; }
+header nav a:hover { text-decoration: underline; }
+
+/* --- HERO --- */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+.hero p   { color: #666; margin-bottom: 2rem; }
+
+/* --- BOUTONS --- */
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: .7rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: .3rem;
+    cursor: pointer;
+    border: none;
+}
+.btn-primary   { background: #3498db; color: white; }
+.btn-secondary { background: #ecf0f1; color: #333;  }
+.btn-primary:hover   { background: #2980b9; }
+.btn-secondary:hover { background: #bdc3c7; }
+
+/* --- FORMULAIRES --- */
+.form-container {
+    max-width: 420px;
+    margin: 4rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.1);
+}
+.form-container h2 { margin-bottom: 1.5rem; }
+.form-container input,
+.form-container select {
+    display: block;
+    width: 100%;
+    padding: .6rem .9rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.form-container button {
+    width: 100%;
+    padding: .7rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* --- ALERTES --- */
+.alert { padding: .8rem 1rem; border-radius: 5px; margin-bottom: 1rem; }
+.alert.error   { background: #fde8e8; color: #c0392b; }
+.alert.success { background: #e8f8e8; color: #27ae60; }
+
+/* --- QCM --- */
+#qcm-container { max-width: 750px; margin: 2rem auto; padding: 1rem; }
+#header-qcm    { display: flex; justify-content: space-between; margin-bottom: 1.5rem; }
+#timer         { font-weight: bold; font-size: 1.2rem; color: #2c3e50; }
+#timer.timer-warning { color: #e74c3c; animation: blink 1s infinite; }
+
+@keyframes blink { 50% { opacity: .4; } }
+
+.question { display: none; }
+.question.active { display: block; }
+.question h3 { margin-bottom: 1rem; }
+.question label {
+    display: block;
+    padding: .6rem 1rem;
+    margin-bottom: .5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.question label:hover { background: #f0f4ff; }
+
+.navigation { display: flex; gap: 1rem; margin-top: 2rem; }
+.hidden { display: none !important; }
+
+/* --- RÉSULTATS --- */
+.resultats-container { max-width: 750px; margin: 2rem auto; }
+.score-card { text-align: center; padding: 2rem; background: white; border-radius: 10px; margin-bottom: 2rem; }
+.score-note { font-size: 3rem; font-weight: bold; color: #3498db; }
+
+.detail { padding: 1rem; margin-bottom: 1rem; border-radius: 6px; background: white; }
+.detail.correct   { border-left: 4px solid #27ae60; }
+.detail.incorrect { border-left: 4px solid #e74c3c; }
+.mauvaise { color: #e74c3c; font-weight: 600; }
+.bonne    { color: #27ae60; font-weight: 600; }
+
+/* --- HISTORIQUE --- */
+.stat-box { background: white; padding: 1rem 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
+table     { width: 100%; border-collapse: collapse; background: white; }
+th, td    { padding: .7rem 1rem; text-align: left; border-bottom: 1px solid #eee; }
+th        { background: #2c3e50; color: white; }
+
+/* --- MODAL ANTI-TRICHE --- */
+.modal {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.6);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 9999;
+}
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+}
+.modal-content h3 { color: #e74c3c; margin-bottom: 1rem; }
+.modal-content button {
+    margin: .4rem;
+    padding: .6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .hero h2 { font-size: 1.4rem; }
+    #qcm-container, .resultats-container { padding: .5rem; }
+}
