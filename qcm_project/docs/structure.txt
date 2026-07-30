@@ -1,27 +1,50 @@
+## 📁 Project Structure
+
+```text
 qcm_project/
+│
+├── assets/
+│   ├── screenshots/          # Application screenshots for the README
+│   ├── images/               # UI images and illustrations
+│   └── icons/                # Icons used throughout the application
+│
+├── docs/
+│   ├── project-report.pdf    # Project documentation
+│
 ├── public/
 │   ├── css/
-│   │   ├── style.css
-│   │   └── admin.css
+│   │   ├── style.css         # User interface styles
+│   │   └── admin.css         # Administrator interface styles
+│   │
 │   └── js/
-│       ├── anti-triche.js
-│       └── timer.js
-├── includes/
-│   ├── db.php
-│   ├── auth.php
-│   └── functions.php
-├── pages/
-│   ├── user/
-│   │   ├── qcm.php
-│   │   ├── resultats.php
-│   │   └── historique.php
-│   └── admin/
-│       ├── dashboard.php
-│       ├── questions.php
-│       └── utilisateurs.php
+│       ├── anti-cheat.js     # Anti-cheat detection system
+│       └── timer.js          # Countdown timer
+│
+├── src/
+│   ├── db.php                # PDO database connection
+│   ├── auth.php              # Authentication and session management
+│   └── functions.php         # Business logic and helper functions
+│
+├── views/
+│   ├── admin/
+│   │   ├── dashboard.php     # Admin dashboard
+│   │   ├── users.php         # User management
+│   │   └── questions.php     # Question management
+│   │
+│   └── user/
+│       ├── quiz.php          # Quiz interface
+│       ├── results.php       # Quiz results
+│       └── history.php       # User quiz history
+│
 ├── sql/
-│   └── database.sql
-├── index.php
-├── inscription.php
-├── connexion.php
-└── deconnexion.php
+│   └── database.sql          # Database creation script
+│
+├── index.php                 # Home page
+├── login.php                 # User login
+├── register.php              # User registration
+├── logout.php                # User logout
+│
+├── README.md                 # Project documentation
+├── LICENSE                   # MIT License
+└── .gitignore                # Git ignored files
+```
