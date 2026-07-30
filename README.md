@@ -3,6 +3,26 @@
 A secure web-based Computer Science Multiple Choice Question (QCM) examination platform built with **PHP**, **MySQL**, **JavaScript**, and **CSS**. The application allows students to take timed exams while providing an administration panel to manage users and questions. It also integrates an anti-cheat system to improve exam integrity.
 
 ---
+# 📖 Overview
+
+This project was developed as a **Computer Science web application** to simulate a secure online examination platform. It enables students to register, authenticate, complete timed multiple-choice exams, and instantly receive their scores and answer corrections.
+
+The application includes a dedicated administrator interface for managing users and question banks while implementing several security mechanisms to protect both user data and exam integrity. An integrated anti-cheat system monitors fullscreen mode, detects tab switching or window changes, and automatically submits the exam when the allocated time expires.
+
+The project follows a modular architecture using **PHP**, **MySQL**, **PDO**, **HTML**, **CSS**, and **Vanilla JavaScript**, making it easy to maintain, extend, and deploy in a local web server environment such as **XAMPP**, **WAMP**, or **MAMP**.
+
+---
+## ⭐ Project Highlights
+
+- 🔐 Secure authentication system
+- 🚫 Anti-cheat examination environment
+- ⏱️ Timed QCM examinations
+- 📊 Automatic grading and score calculation
+- 📚 Personal exam history
+- 👨‍💼 Administrator management panel
+- 📱 Responsive user interface
+- 🛡️ CSRF protection and secure PDO queries
+- 🎯 Clean modular PHP architecture
 
 ## ✨ Features
 
