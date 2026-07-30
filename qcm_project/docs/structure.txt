@@ -1,0 +1,27 @@
+qcm_project/
+├── public/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── admin.css
+│   └── js/
+│       ├── anti-triche.js
+│       └── timer.js
+├── includes/
+│   ├── db.php
+│   ├── auth.php
+│   └── functions.php
+├── pages/
+│   ├── user/
+│   │   ├── qcm.php
+│   │   ├── resultats.php
+│   │   └── historique.php
+│   └── admin/
+│       ├── dashboard.php
+│       ├── questions.php
+│       └── utilisateurs.php
+├── sql/
+│   └── database.sql
+├── index.php
+├── inscription.php
+├── connexion.php
+└── deconnexion.php
