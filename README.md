@@ -23,10 +23,7 @@ Experience the QCM Examination Platform through the interactive static demo:
     <img src="https://img.shields.io/badge/🚀%20LAUNCH%20QCM%20LIVE%20DEMO-C0C0C0?style=for-the-badge&logo=vercel&logoColor=111827&labelColor=9CA3AF" alt="Launch QCM Live Demo">
   </a>
 <p align="center">
-  <sub>
-    Interactive browser-based demonstrations deployed with Vercel.
-  </sub>
-</p>
+
 
 The live demo reproduces the application's main interfaces and examination workflows using **HTML5, CSS3, and Vanilla JavaScript**, while preserving the visual design of the original project.
 
