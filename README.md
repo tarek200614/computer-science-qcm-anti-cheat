@@ -12,6 +12,74 @@ The application includes a dedicated administrator interface for managing users 
 The project follows a modular architecture using **PHP**, **MySQL**, **PDO**, **HTML**, **CSS**, and **Vanilla JavaScript**, making it easy to maintain, extend, and deploy in a local web server environment such as **XAMPP**, **WAMP**, or **MAMP**.
 
 ---
+## 🌐 Live Demo
+
+> **Interactive frontend demonstration — no PHP/MySQL required**
+
+Experience the QCM Examination Platform through the interactive static demo:
+
+👉 **[🚀 Launch Live Demo](https://demo1-lake-seven.vercel.app/)**
+
+The live demo reproduces the application's main interfaces and examination workflows using **HTML5, CSS3, and Vanilla JavaScript**, while preserving the visual design of the original project.
+
+### 🎓 Demo Features
+
+- 🔐 Student & Admin authentication simulation
+- 📚 Examination dashboard
+- 📝 10-question Computer Science QCM
+- ⏱️ 10-minute examination timer
+- 📊 Results displayed as **XX / 20**
+- 📜 Persistent examination history
+- ⚠️ Browser-based anti-cheat detection
+- 🚨 Automatic termination after the violation threshold
+- 👨‍💼 Responsive Admin Dashboard
+- ❓ Question management interface
+- 👥 User management interface
+- 📱 Responsive desktop, tablet, and mobile layouts
+- 💾 Client-side state persistence using `localStorage`
+
+### 🔑 Demo Accounts
+
+| Role | Email | Password |
+|------|-------|----------|
+| **Administrator** | `admin@demo.local` | `Demo1234!` |
+| **Student** | `student@demo.local` | `Demo1234!` |
+
+> **Important:** The Live Demo is a static frontend simulation. The demo accounts, examination data, results, history, and anti-cheat behavior are handled client-side and do not connect to the PHP/MySQL backend.
+
+### 🖥️ Responsive Design
+
+The demo has been tested across:
+
+- **Desktop:** 1920×1080, 1440×900, 1366×768, 1024×768
+- **Tablet:** 768×1024, 820×1180
+- **Mobile:** 430×932, 412×915, 390×844, 375×812, 360×800
+
+The Admin Dashboard, examination interface, forms, tables, navigation, and results pages adapt to smaller screens without page-level horizontal overflow.
+
+### 🧪 Demonstrated Examination Flow
+
+```text
+Home
+  ↓
+Login
+  ↓
+Student Dashboard
+  ↓
+Start Examination
+  ↓
+10 Questions / 10 Minutes
+  ↓
+Anti-Cheat Monitoring
+  ↓
+Automatic / Manual Submission
+  ↓
+Result — XX / 20
+  ↓
+Examination History
+```
+
+---
 ## ⭐ Project Highlights
 
 - 🔐 Secure authentication system
