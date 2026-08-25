@@ -18,10 +18,10 @@ The project follows a modular architecture using **PHP**, **MySQL**, **PDO**, **
 
 Experience the QCM Examination Platform through the interactive static demo:
 
-<a href="https://demo1-lake-seven.vercel.app/">
-  <img src="https://img.shields.io/badge/🚀%20Launch%20QCM%20Live%20Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch QCM Live Demo">
-</a>
-
+<p align="center">
+  <a href="https://demo1-lake-seven.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀%20LAUNCH%20QCM%20LIVE%20DEMO-C0C0C0?style=for-the-badge&logo=vercel&logoColor=111827&labelColor=9CA3AF" alt="Launch QCM Live Demo">
+  </a>
 </p>
 
 
