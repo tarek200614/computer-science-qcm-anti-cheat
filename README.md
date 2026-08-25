@@ -24,7 +24,6 @@ Experience the QCM Examination Platform through the interactive static demo:
   </a>
 </p>
 
-
 The live demo reproduces the application's main interfaces and examination workflows using **HTML5, CSS3, and Vanilla JavaScript**, while preserving the visual design of the original project.
 
 ### 🎓 Demo Features
