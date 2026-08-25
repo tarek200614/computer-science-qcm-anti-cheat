@@ -131,51 +131,51 @@ Examination History
 # 📸 Screenshots
 
 ## Home Page
-
+<p align="center">
 <img width="1920" height="1080" alt="home-page" src="https://github.com/user-attachments/assets/fd000c17-6f9c-495d-a083-caddd451235e" />
-
+</p>
 
 ---
 
 ## Login
-
+<p align="center">
 <img width="1920" height="1080" alt="login" src="https://github.com/user-attachments/assets/5d490bd1-80df-4680-bf07-e879a000eabb" />
-
+</p>
 
 ---
 
 ## Registration
-
+<p align="center">
 <img width="1920" height="1080" alt="registration" src="https://github.com/user-attachments/assets/d4427f15-99d3-4be7-b47f-40829216d52f" />
-
+</p>
 
 ---
 
 ## Student Dashboard
-
+<p align="center">
 <img width="1920" height="1080" alt="user-dashboard" src="https://github.com/user-attachments/assets/d8554f04-7bdd-4cf0-80c6-fd21dfccdbec" />
-
+</p>
 
 ---
 
 ## QCM Examination
-
+<p align="center">
 <img width="1920" height="1080" alt="qcm-exam" src="https://github.com/user-attachments/assets/39aaccf4-2b64-4182-b12a-d50b1f0af211" />
-
+</p>
 
 ---
 
 ## Results
-
+<p align="center">
 <img width="1920" height="1080" alt="results-page" src="https://github.com/user-attachments/assets/d29d239e-c8bc-41dd-b81d-065eeac0fc12" />
-
+</p>
 
 ---
 
 ## Admin Dashboard
-
+<p align="center">
 <img width="1920" height="1080" alt="admin-dashboard" src="https://github.com/user-attachments/assets/e3960296-5cc2-45ac-8618-81ea8e6d1619" />
-
+</p>
 
 ---
 
